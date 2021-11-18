@@ -1,0 +1,5 @@
+---
+  - name: Run test_module
+    test_module:
+      path: "/tmp/test.txt"
+      content: "TEST"

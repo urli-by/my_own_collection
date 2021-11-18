@@ -1,0 +1,7 @@
+---
+- name: Single task playbook
+  hosts: localhost
+  tasks:
+    - name: Check module
+      test_module:
+        content: 'Hello!'
